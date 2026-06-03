@@ -198,8 +198,59 @@ for i in range(101):
 # squares = [x**2 for x in range(5) if x % 2 == 0 ]
 # print(squares)
 
-matrix = [ 
-    [1,2,3],
-    [4,5,6]
-]
-print(matrix[0][1])
+# matrix = [ 
+#     [1,2,3],
+#     [4,5,6]
+# ]
+# print(matrix[0][1])
+
+t = ('veer','rana','singh')
+t2 = (2,3,4)
+# print(t+t2)
+# print((1 , 2 )*3)
+# print("rana" not in t)
+# lat , lon , laa = t 
+# print(lat)
+# print(t)
+
+dic = {
+    "key1":"value1",
+    "key2":"value2",
+    "key3":"value3"
+}
+dic['key1'] = ['value1.0']
+# print(dic['key1'])
+dic["key4"] = ['value4','value4.0.1']
+# del dic['key1']
+# print(dic.get("key2"))
+# print(dic)
+# all_keys = dic.keys()
+# print(all_keys)
+
+# all_values = dic.values()
+# print(all_values)
+
+# for key, val in dic.items():
+#     print(f"{key}: {val}")
+
+# get_val = dic.pop("key1")
+# print(get_val)
+# dic.clear()
+# print(dic)
+# for i , j in dic.items():
+#     print(i , j)
+
+# for name in dic.values():
+#     print(name)
+
+# for name in dic:
+#     score = dic[name]
+#     print(f"{name}: {score}")
+
+# for i in dic.values():
+#     print(i)
+
+my_family = {
+    "child1": {"name":"veer","age:25"}
+    "child2":{"name":"atharv","age:23"}
+}
