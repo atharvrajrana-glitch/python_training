@@ -82,4 +82,124 @@ for char in text:
     else:
         des2[char] = 1
 print(des2)
-"""
+
+
+num1 = int(input("Enter number1: "))
+sign = input("Enter sign: ")
+num2 = int(input("Enter number2: "))
+
+if sign == "+":
+    res = num1 + num2
+elif sign == "-":
+    res = num1 - num2
+elif sign == "/":
+    res = num1 / num2
+elif sign == "*":
+    res = num1 * num2
+print(res)
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+set1 = set(fruits)
+print(set1)
+fruits.sort()
+print(fruits)
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.sort(reverse= False)
+print(fruits)
+
+tul = ('banana', 'orange', 'mango', 'lemon') 
+tul2 =('banana','lemon')
+new_tul = tul + tul2 
+print(new_tul)
+
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item3', 'item6', 'item7', 'item8'}
+set3 = st1.union(st2)
+print(set3)
+
+ternary operator:
+age = 20 
+stauts = "Adult" if age >=18 else "Minor"
+print(stauts)
+
+
+i = 0
+
+for i in range(101):
+    if i % 2 == 0:
+        print(i)
+    i+=1
+""" 
+
+# a = 2 ** 3 
+# print(a)
+
+# a = 22 / 8 
+# print(a)
+
+# a = 'Atharv' * 3 
+# print(a)
+# while True:
+#     print("Who are you?")
+#     name = input('>')
+#     if name != 'Joe':
+#         continue
+#     print("Hello , Joe.")
+#     password = input('>')
+#     if password == 'swordfish':
+#         break
+#   print('Access granted.')
+
+# for i in range(5):
+#     print('on this iteration, i is set to '+ str(i))
+# print('Goodbye')
+   
+# total = 0 
+# for num in range(101):
+#     total = total + num
+# print(total)
+
+# for i in range(0 , 10):
+#     print(i)
+
+# def say_hello(name):
+#     print('Good morning,' + name)
+
+# say_hello('Atharv')
+
+# def spam():
+#    eggs = 'sss'
+# spam()
+# print(eggs)
+
+# for x in range(3):
+#     print(x)
+# else:
+#     print("Loop finished cleanly!")
+
+# for x in range(2):
+#     for y in range(3):
+#         print(x,y)
+
+# l = ['veer','atharv','rana']
+# # print(l[0])
+# l.append("raj")
+# a = ['shiv','yash','singh']
+# l.extend(a)
+# l.insert(2,'loops')
+# l.remove('loops')
+# r = l.pop(1)
+# l.sort(reverse = True)
+# # l.clear()
+# # print(r)
+
+# # print(l[:3])
+# squares = [x**2 for x in range(5) if x % 2 == 0 ]
+# print(squares)
+
+matrix = [ 
+    [1,2,3],
+    [4,5,6]
+]
+print(matrix[0][1])
