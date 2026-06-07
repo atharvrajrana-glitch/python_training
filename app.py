@@ -250,8 +250,87 @@ dic["key4"] = ['value4','value4.0.1']
 # for i in dic.values():
 #     print(i)
 
-my_family = {
-    "child1": {"name":"veer","age:25"}
-    "child2":{"name":"atharv","age:23"}
-    "child3":{"name: raj"}
-}
+# my_family = {
+#     "child1": {"name":"veer","age":25},
+#     "child2":{"name":"atharv","age":23},
+#     "child3":{"name": "raj","age":22}
+# }
+# my_family["child1"]["age"] = 30
+# for child , child_info in my_family.items():
+#     print(f"{child}")
+#     for key,value in child_info.items():
+#         print(f"{key}:{value}")
+# print(my_family)
+# a = int("1000")
+# b = 1000
+
+# print(a is b )
+
+# fruits = {"apple", "banana",1, "cherry", "apple"}
+# # fruits.add("vgytfhj")
+# # # fruits.remove("ghhjiu")
+# # fruits.discard("banana")
+# # fruits.clear()
+# # print(fruits)
+# number = {1,2,3,3,4}
+# res = fruits ^ number
+# print(res)
+
+
+
+# Day - 2 Question
+#Question 1
+# i = 1 
+# for i in range(101):
+#     if i % 2 == 0:
+#         print(i)
+#         i += 1
+# i = 2 
+# while i <= 100:
+#     if i % 2 == 0:
+#         print(i)
+#     i += 1  
+
+#Question 2
+# a = 0
+# b = 1
+# count = 0
+# while count < 10:
+#     print(a)
+#     c = a + b
+#     a = b
+#     b = c 
+#     count+=1
+#question 3
+# res = [x**2 for x in range(11)]
+# print(res)
+
+
+
+# def add(a , b):
+#     return a + b 
+# print(add(4,5))
+
+
+# def name(*args):
+#     for name in args:
+#         print(f"HELLO{name}!")
+
+# name("Alice", "Bob", "Charlie")
+
+
+# def dis_info(**kwargs):
+#     for key , value in kwargs.items():
+#         print(f"{key}: {value}")
+
+# dis_info(name="Alice", age=30, city="Delhi")
+
+
+# x = 100
+# def foo():
+#     global x 
+#     x = 200 + 3
+
+# foo()
+# print(x)
+
