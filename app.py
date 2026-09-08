@@ -334,3 +334,200 @@ dic["key4"] = ['value4','value4.0.1']
 # foo()
 # print(x)
 
+# squ = lambda x : x * x 
+
+# print(squ(5))
+
+num = [1,2,3,4,5,6,7]
+
+# squ = list(map(lambda x : x**2,num))
+# print(squ)
+
+# even = list(filter(lambda x : x % 2 == 0,num))
+# print(even)
+
+# people = [("Alice", 30), ("Bob", 25), ("Charlie", 35)]
+
+# sort_people = sorted(people, key = lambda p :p[1])
+# print(sort_people)
+
+
+# def factorial(n):
+#     if n == 0:
+#         return 1
+#     return n * factorial(n-1)
+# print(factorial(5))
+
+# from functools import reduce
+
+# num = [1,2,3,4,5]
+# total = reduce(lambda acc , x : acc + x , num)
+# print(total)
+
+# file = open("text.txt","r")
+# content = file.read()
+# print(content)
+# file.close()
+
+# with open("text.txt","a") as file :
+#     # content = file.read()
+#     # line = file.readlines()
+#     file.write("Hello Atharv /n")
+   
+# text = open("text.txt","r") 
+# content = text.read()
+# print(content)
+
+# import os
+
+# if os.path.exists("teet.txt"):
+#     with open("text.txt","r") as file:
+#         content = file.read()
+#         print(content)
+# else:
+#     print("file not found ")
+
+# with open("file.txt","r+") as file:
+   
+    
+#     file.write("Hello new file.")
+#     file.write("atharv")
+#     content = file.read()
+#     print(content)
+
+# import csv
+
+# with open("new.csv","r") as file:
+#     reader = csv.DictReader(file)
+#     for row in reader:
+#         print(row)
+#         print(row["name"])
+
+# import json
+
+# student = {
+#     "name": "Alice",
+#     "age": 30,
+#     "hobbies": ["reading", "coding"],
+#     "address": {
+#         "city": "Delhi",
+#         "pin": "110001"
+#     }
+# }
+
+# with open("app.json","r") as file:
+#     data = json.load(file)
+#     # print(data)
+#     print(data["name"])
+#     print(data["age"])
+
+# with open("app.json","w") as file:
+#     content = json.dump(student, file ,indent=8)
+#     print(content)
+# python dic to json
+# string_py = {"name":"veer","age":23}
+# json_string = json.dumps(string_py,indent=4)
+# print(json_string)
+# print(type(json_string))
+# # json to python 
+# json_str = '{"name":"veer","age":"30"}'
+# dat = json.loads(json_str)
+# print(dat)
+# print(type(dat))
+
+# import json
+
+# with open("app.json") as file:
+#     data = json.load(file)
+#     print(data)
+
+# data["name"]= "veer"
+
+# with open ("app.json","w") as file:
+#     json.dump(data , file , indent=4)
+
+
+
+# def avg(*args):
+#     return sum(args) / len(args)
+    
+# t = avg(4,5,6,7)
+# print(t)
+
+# def dis_inf(**kwargs):
+#     for key , value in kwargs.items():
+#         print(f"{key}: {value}")
+
+# dis_inf(name="Alice", age=30, city="Delhi")
+
+# list_num = [1,2,3,4,5,6]
+
+# even = list(map(lambda x : x**2,list_num))
+# fil = list(filter(lambda x : x % 2 == 0,list_num))
+
+# print(fil)
+
+# import json 
+
+# def read_json(filepath):
+#     with open(filepath,"r") as file:
+#         data = json.load(file)
+#     return data
+
+# print(read_json("app.json"))
+
+# import random
+# import string
+
+# def random_password(uppercase=True, lowercase=True, length=12, digits=True, special=True):
+#     characters=""
+
+#     if uppercase:
+#         characters += string.ascii_uppercase
+#     if lowercase:
+#         characters += string.ascii_lowercase
+
+#     if digits:
+#         characters += string.digits
+#     if special:
+#         characters += string.punctuation
+
+#     password = []
+
+#     if uppercase:
+#         password.append(random.choice(string.ascii_uppercase))
+#     if lowercase:
+#         password.append(random.choice(string.ascii_lowercase))
+#     if digits:
+#         password.append(random.choice(string.digits))
+#     if special:
+#         password.append(random.choice(string.punctuation))
+
+#     remaining = length  - len(password)
+#     password += random.choices(characters,k=remaining)
+
+#     random.shuffle(password)
+
+#     return "".join        
+
+# print(random_password(length=16))
+
+# def my_dec(func):
+#     def hello():
+#         print("hello world")
+#         func()
+#         print("atharv")
+#     return hello
+
+
+# @my_dec
+# def say_in():
+#     print("hii")
+
+# say_in()
+
+import time 
+
+start_time = time.pref_counter()
+
+total = 0

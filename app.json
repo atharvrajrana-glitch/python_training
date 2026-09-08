@@ -1,0 +1,12 @@
+{
+    "name": "veer",
+    "age": 30,
+    "hobbies": [
+        "reading",
+        "coding"
+    ],
+    "address": {
+        "city": "Delhi",
+        "pin": "110001"
+    }
+}
